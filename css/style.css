@@ -1,13 +1,9 @@
-a {
-  text-decoration: none;
-  color: inherit;
-}
+
 .header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  height: 70px;
-  padding: 0 30px;
+  height: 50px;
+  padding: 40px 20px 10px 30px;
   color: #000;
 }
 
@@ -18,13 +14,10 @@ a {
 .header-nav-list {
   display: flex;
   font-weight: bold;
-  width: 100%;
-  position: relative;
+
 }
 
-.header-nav{
-  display: block;
-}
+
 
 
 @media screen and (max-width:780px){
@@ -57,11 +50,11 @@ a {
 .hbg{
   display: none;
 }
+
 @media screen and (max-width:780px){
   .hbg{
     display: block;
     justify-content: flex-end;
-    margin-left: 1000px;
   }
 }
 
@@ -69,20 +62,16 @@ a {
   .hbg{
     display: block;
     justify-content: flex-end;
-    margin-left: 1000px;
   }
 }
 
 
-
-
-a{
-  text-decoration: none;
+li{
   color: blue
 }
 .nav{
   position: absolute;
-  height: 100vh;
+  height: 1000px;
   width: 100%;
   left: -100%;
   background: #eee;
@@ -152,7 +141,7 @@ a{
   font-weight: bold;
   margin-top: -500px;
   margin-left: 300px;
-  width: 120%;
+  width: 100%;
 }
 
 @media screen and (max-width:780px){
@@ -233,33 +222,51 @@ a{
 }
 
 .parent{
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: 50px;
+  margin-top: 500px;
+  margin-left: 100px;
+}
 
+
+
+.business-content{
+  justify-content: space-around;
+  padding: 24px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: auto;
 }
 
 .child {
-  width: 300%;
+  width: 50%;
+  padding-bottom: 300px;
 }
 
 @media screen and (max-width: 768px) {
   .child {
-    width: 300%;
+    width: 100%;
   }
 }
 
 @media screen and (max-width: 480px) {
   .child {
     width: 100%;
-    margin-left: 400px;
   }
 }
 
-.text {
+.all-text{
+  margin-top:-350px ;
+  margin-left: 500px;
+  padding-left: 200px;
+
+}
+
+
+.text2{
+  line-height: 30px;
   font-weight: bold;
   font-size: 25px;
-  margin-top: 20px;
+  width: 500px;
 }
 
 .text-child {
@@ -313,13 +320,13 @@ a{
 
 @media screen and (max-width:780px){
     .news{
-      width: 220%;
+      width: 100%;
   }
 }
 
 @media screen and (max-width:480px){
   .news{
-    width: 350%;
+    width: 100%;
 }
 }
 
@@ -393,14 +400,14 @@ a{
 }
 @media screen and (max-width: 768px) {
   .blog{
-    width: 200%;
+    width: 100%;
     
   }
 }
 
 @media screen and (max-width: 480px) {
   .blog{
-    width: 350%;
+    width: 100%;
   }
 }
 
@@ -421,7 +428,7 @@ a{
 
 @media screen and (max-width: 480px) {
   .blog-photo {
-    width: 200%;
+    width: 100%;
   }
 }
 
@@ -519,13 +526,13 @@ a{
 
 @media screen and (max-width:780px){
     .imformation-block{
-      width: 330%;
+      width: 100%;
   }
 }
 
 @media screen and (max-width:480px){
   .imformation-block{
-    width: 500%;
+    width: 100%;
 }
 }
 
@@ -691,13 +698,13 @@ a {
 
 @media screen and (max-width: 768px) {
   .footer{
-    width: 230%;
+    width: 100%;
   }
 }
 
 @media screen and (max-width: 480px) {
   .footer{
-    width: 400%;
+    width: 100%;
 
   }
 }
