@@ -14,7 +14,9 @@
 .header-nav-list {
   display: flex;
   font-weight: bold;
-
+}
+.header-nav-item{
+  color: #000;
 }
 
 
@@ -163,9 +165,19 @@ li{
   margin-left: 370px;
 }
 
+
+
+
+
+
+
+
+
+
+
 .thought-text {
   background-color: black;
-  width: 115%;
+  width: 1500px;
   height: 500px;
   margin-top: 417px;
   align-items: flex-end;
@@ -222,7 +234,6 @@ li{
 }
 
 .parent{
-  margin-top: 500px;
   margin-left: 100px;
 }
 
@@ -312,7 +323,7 @@ li{
 
 .news {
   background-color: black;
-  width: 100%;
+  width: 1500px;
   height: 500px;
   margin-top: 200px;
   align-items: flex-end;
@@ -320,13 +331,13 @@ li{
 
 @media screen and (max-width:780px){
     .news{
-      width: 100%;
+      width: 220%;
   }
 }
 
 @media screen and (max-width:480px){
   .news{
-    width: 100%;
+    width: 350%;
 }
 }
 
@@ -616,10 +627,10 @@ li{
 
 .call{
   background-color: rgb(241, 241, 241);
-  width: 1600px;
+  width: 1500px;
   margin-top: -90px;
   width: 100%;
-  height: auto;
+  height: 400px;
   
 }
 
@@ -733,6 +744,7 @@ a {
 .footer-nav-item{
   margin-right:20px;
   padding: 5px;
+  color:#fff;
 }
 
 .footer-nav-item:not(:last-child) {
