@@ -35,6 +35,9 @@
     display: none;
   }
 }
+.header-nav-item{
+  color: #000;
+}
 
 .header-nav-item:not(:last-child) {
   margin-right: 30px;
@@ -315,6 +318,7 @@ a {
   display: flex;
   margin-right:20px;
   padding: 5px;
+  color: #fff;
 }
 
 
