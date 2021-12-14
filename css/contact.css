@@ -114,15 +114,19 @@ li{
   position: absolute;
   transition: 0.5s;
 }
+
 .menu__line--top {
   top: 0;
 }
+
 .menu__line--middle {
   top: 14px;
 }
+
 .menu__line--bottom {
   bottom: 0;
 }
+
 .menu.open span:nth-of-type(1) {
   top: 14px;
   transform: rotate(45deg);
@@ -130,6 +134,7 @@ li{
 .menu.open span:nth-of-type(2) {
   opacity: 0;
 }
+
 .menu.open span:nth-of-type(3) {
   top: 14px;
   transform: rotate(-45deg);
@@ -147,12 +152,11 @@ li{
   font-weight: bold;
   margin-top: -500px;
   margin-left: 700px;
-  width: 120%;
 }
 
 @media screen and (max-width:780px){
     .titlle-text{
-      width: 50%;
+      width: 100%;
   }
 }
 
@@ -178,12 +182,16 @@ li{
 
 
 
+.label-brock{
+  padding-right: 200px;
+}
 
 
 
 .form-item{
-  margin-top: 10px;
+  margin-top: 20px;
   position: relative ;top: 500px;left: 100px;
+  color: #000;
 }
 
 label {
@@ -198,13 +206,13 @@ label {
 
 @media screen and (max-width:780px){
     .news{
-      width: 220%;
+      width: 100%;
   }
 }
 
 @media screen and (max-width:480px){
   .news{
-    width: 350%;
+    width: 100%;
 }
 }
 
@@ -257,7 +265,7 @@ a {
 }
 
 .footer {
-  width: 115%;
+  width: 100%;
   background-color: #000;
   color: #fff;
   padding: 20px 0;
@@ -267,13 +275,13 @@ a {
 
 @media screen and (max-width: 768px) {
   .footer{
-    width: 230%;
+    width: 100%;
   }
 }
 
 @media screen and (max-width: 480px) {
   .footer{
-    width: 400%;
+    width: 100%;
 
   }
 }

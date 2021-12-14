@@ -139,7 +139,9 @@ li{
 }
 
 
-
+.photo-mv{
+  width: 1500px;
+}
 
 
 
@@ -151,10 +153,12 @@ li{
   font-size: 50px;
   font-weight: bold;
   margin-top: -500px;
-  margin-left: 700px;
-  width: 120%;
+  
 }
 
+.titlle-text2{
+  padding-left: 600px;
+}
 @media screen and (max-width:780px){
     .titlle-text{
       width: 50%;
@@ -176,19 +180,12 @@ li{
 
 .blog-photo{
   display: flex;
-  justify-content: space-between;
-  margin-left: 250px;
-  width: 50%;
-  flex-wrap: nowrap;
 }
 
 
 
-
-
 .blog-block{
-
-  margin-left: 40px;
+  margin-left: 10px;
   position: relative;
   text-decoration: none;
   color: rgb(0, 0, 0);
@@ -218,10 +215,11 @@ li{
 .blog-block1{
   display: flex;
   margin-top: 500px;
-  margin-right: 500px;
   flex-wrap:nowrap ;
   justify-content: space-between;
+  padding-left: 280px;
 }
+
 @media screen and (max-width: 768px) {
   .blog-block1{
     flex-wrap: wrap;
@@ -240,14 +238,14 @@ li{
 .blog-block2{
   display: flex;
   margin-top: 850px;
-  margin-left: -1500px;
   flex-wrap: nowrap;
   justify-content: space-between;
+  margin-left: -920px;
 }
+
 @media screen and (max-width: 768px) {
   .blog-block2{
     flex-wrap: wrap;
-    margin-left: -900px;
     justify-content: space-between;
   }
 }
@@ -262,20 +260,20 @@ li{
 
 .call{
   background-color: rgb(241, 241, 241);
-  width: 115%;
+  width: 100%;
   height: 400px;
   
 }
 
 @media screen and (max-width: 768px) {
   .call {
-    width: 230%;
+    width: 100%;
   }
 }
 
 @media screen and (max-width: 480px) {
   .call{
-    width: 400%;
+    width: 100%;
   }
 }
 
@@ -334,7 +332,7 @@ a {
 }
 
 .footer {
-  width: 115%;
+  width: 100%;
   background-color: #000;
   color: #fff;
   padding: 20px 0;
@@ -344,13 +342,13 @@ a {
 
 @media screen and (max-width: 768px) {
   .footer{
-    width: 230%;
+    width: 100%;
   }
 }
 
 @media screen and (max-width: 480px) {
   .footer{
-    width: 400%;
+    width: 100%;
 
   }
 }
