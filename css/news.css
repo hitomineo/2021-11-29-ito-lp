@@ -59,16 +59,12 @@
 @media screen and (max-width:780px){
   .hbg{
     display: block;
-    justify-content: flex-end;
-    margin-left: 1000px;
   }
 }
 
 @media screen and (max-width:480px){
   .hbg{
     display: block;
-    justify-content: flex-end;
-    margin-left: 1000px;
   }
 }
 
@@ -152,28 +148,16 @@ li{
 
 
 .titlle-text {
-  display: block;
   color: aliceblue;
   font-size: 50px;
   font-weight: bold;
-  margin-top: -500px;
+  padding-left: 35%;
+  margin-top: -35%;
 }
 
-@media screen and (max-width:780px){
-    .titlle-text{
-      width: 50%;
-  }
-}
 
-@media screen and (max-width:480px){
-  .titlle-text{
-    width: 100%;
-}
-}
 
-.titlle-text2{
-padding-left: 650px;
-}
+
 
 
 .latest-news {
@@ -181,10 +165,10 @@ padding-left: 650px;
   background-color: white;
   font-size: 20px;
   font-weight: bold;
-  width: 1300px;
+  width: 70%;
   padding: 30px;
   margin-bottom: 10px;
-  margin-left: 100px;
+  margin-left: 10%;
   position:relative;top: 100px;
   text-decoration: none;
   color: rgb(0, 0, 0);
@@ -198,7 +182,7 @@ padding-left: 650px;
 }
 
 .block-news{
-  margin-top: 500px;
+  margin-top: 30%;
   margin-bottom: 250px;
 }
 
@@ -248,7 +232,7 @@ padding-left: 650px;
   position: relative;
   justify-content: center;
   background-color: rgb(218, 0, 0);
-  width: 380px;
+  width: 40%;
   height: 30px;
   justify-content: center;
   display: block;
@@ -313,7 +297,6 @@ a {
   font-weight: bold;
   font-size: 14px;
   margin-bottom: 10px;
-  margin-right: 200px;
   margin-top: 10px;
 }
 

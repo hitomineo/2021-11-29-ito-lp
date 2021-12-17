@@ -59,16 +59,12 @@
 @media screen and (max-width:780px){
   .hbg{
     display: block;
-    justify-content: flex-end;
-    margin-left: 1000px;
   }
 }
 
 @media screen and (max-width:480px){
   .hbg{
     display: block;
-    justify-content: flex-end;
-    margin-left: 1000px;
   }
 }
 
@@ -146,26 +142,12 @@ li{
 
 
 .titlle-text {
-  display: block;
   color: aliceblue;
   font-size: 50px;
   font-weight: bold;
-  margin-top: -500px;
-  margin-left: 700px;
+  padding-left: 35%;
+  margin-top: -35%;
 }
-
-@media screen and (max-width:780px){
-    .titlle-text{
-      width: 100%;
-  }
-}
-
-@media screen and (max-width:480px){
-  .titlle-text{
-    width: 100%;
-}
-}
-
 
 
 
@@ -184,13 +166,14 @@ li{
 
 .label-brock{
   padding-right: 200px;
+  padding-top: 40%;
 }
 
 
 
 .form-item{
   margin-top: 20px;
-  position: relative ;top: 500px;left: 100px;
+  position: relative ;top: 90%;left: 100px;
   color: #000;
 }
 
@@ -226,21 +209,10 @@ label {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 .plactice__btn4 {
   justify-content: center;
   background-color: black;
-  width: 380px;
+  width: 40%;
   height: 30px;
   padding: 18px;
   text-align: center;
@@ -248,9 +220,8 @@ label {
   font-size: 25px;
   font-weight: bold;
   text-decoration: none;
-  position: relative;
-  top: 600px;left: 550px;
-
+  margin-top: 10%;
+  margin-left: 30%;
 }
 
 .plactice__btn4:hover{
@@ -270,21 +241,10 @@ a {
   color: #fff;
   padding: 20px 0;
   text-align: center;
-  margin-top: 700px;
+  margin-top: 30%;
 }
 
-@media screen and (max-width: 768px) {
-  .footer{
-    width: 100%;
-  }
-}
 
-@media screen and (max-width: 480px) {
-  .footer{
-    width: 100%;
-
-  }
-}
 .footer-inner{
   display: flex;
   justify-content: space-between;
@@ -304,7 +264,7 @@ a {
   font-weight: bold;
   font-size: 14px;
   margin-bottom: 10px;
-  margin-right: 200px;
+  
   margin-top: 10px;
 }
 

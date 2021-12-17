@@ -59,16 +59,14 @@
 @media screen and (max-width:780px){
   .hbg{
     display: block;
-    justify-content: flex-end;
-    margin-left: 1000px;
+    
   }
 }
 
 @media screen and (max-width:480px){
   .hbg{
     display: block;
-    justify-content: flex-end;
-    margin-left: 1000px;
+    
   }
 }
 
@@ -146,12 +144,11 @@ li{
 
 
 .titlle-text {
-  display: block;
   color: aliceblue;
   font-size: 50px;
   font-weight: bold;
-  margin-top: -500px;
-  margin-left: 700px;
+  padding-left: 35%;
+  margin-top: -35%;
 }
 
 @media screen and (max-width:780px){
@@ -166,34 +163,25 @@ li{
 }
 }
 
-.blog-photo{
-  display: flex;
-  justify-content: space-between;
-  margin-left: 250px;
-  width: 50%;
-  flex-wrap: nowrap;
-}
 
 
 hr {
   border-top: 1px solid #ccc;
-  width: 1000px;
-  margin-left: 200px;
+  width: 100%;
 }
 
 .company-info{
-  display: block;
-  margin-top: 500px
+  margin-top: 40%;
   
 }
 
 .question{
-  padding-left: 300px;
+  padding-left: 10%;
   font-weight: bold;
 }
 
 .answer{
-padding-left: 500px;
+padding-left: 40%;
 width: 100%;
 }
 
@@ -244,7 +232,7 @@ width: 100%;
   position: relative;
   justify-content: center;
   background-color: rgb(218, 0, 0);
-  width: 380px;
+  width: 40%;
   height: 30px;
   justify-content: center;
   display: block;
@@ -278,18 +266,7 @@ a {
   
 }
 
-@media screen and (max-width: 768px) {
-  .footer{
-    width: 100%;
-  }
-}
 
-@media screen and (max-width: 480px) {
-  .footer{
-    width: 100%;
-
-  }
-}
 .footer-inner{
   display: flex;
   justify-content: space-between;
@@ -309,7 +286,6 @@ a {
   font-weight: bold;
   font-size: 14px;
   margin-bottom: 10px;
-  margin-right: 200px;
   margin-top: 10px;
 }
 
