@@ -183,14 +183,12 @@ li{
 }
 
 
-
 .blog-block{
   margin-left: 10px;
   position: relative;
   text-decoration: none;
   color: rgb(0, 0, 0);
   width: 30%;
-  height: 500px;
 }
 
 @media screen and (max-width: 768px) {
@@ -256,6 +254,13 @@ li{
     flex-wrap: wrap;
   }
 }
+
+
+
+
+
+
+
 
 
 .call{
