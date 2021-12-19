@@ -165,46 +165,44 @@ li{
 
 
 .label-brock{
-  padding-right: 200px;
+  
   padding-top: 40%;
+  padding-left: 15%;
 }
 
 
 
-.form-item{
-  margin-top: 20px;
-  position: relative ;top: 90%;left: 100px;
-  color: #000;
-}
-
-label {
+.textarea {
   margin-top: 50px;
   font-weight: bold;
 }
+
+
 .form-item-input{
-  height: 50px;
-  width: 100%;
-  margin-top: 10px;
+  width: 80%;
+  margin-top: 1em;
 }
 
 @media screen and (max-width:780px){
     .news{
-      width: 100%;
+      width: 80%;
   }
 }
 
 @media screen and (max-width:480px){
   .news{
-    width: 100%;
+    width: 80%;
 }
 }
 
 
+.name{
+  display: flex;
+}
 
-
-
-
-
+.rice{
+  color: rgb(184, 0, 0);
+}
 
 
 
@@ -221,7 +219,7 @@ label {
   font-weight: bold;
   text-decoration: none;
   margin-top: 10%;
-  margin-left: 30%;
+  margin-left: 20%;
 }
 
 .plactice__btn4:hover{
@@ -235,13 +233,15 @@ a {
   color: inherit;
 }
 
+
+
 .footer {
   width: 100%;
   background-color: #000;
   color: #fff;
   padding: 20px 0;
   text-align: center;
-  margin-top: 30%;
+  margin-top: 20%;
 }
 
 
@@ -264,8 +264,19 @@ a {
   font-weight: bold;
   font-size: 14px;
   margin-bottom: 10px;
-  
   margin-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer-nav-list{
+    display: none;
+
+  }
+}
+@media screen and (max-width: 480px) {
+  .footer-nav-list{
+    display: none;
+  }
 }
 
 
@@ -273,9 +284,9 @@ a {
 
 .footer-nav-item{
   display: flex;
-  margin-right:20px;
   padding: 5px;
   color: #fff;
+  margin-right: 20px;
 }
 
 
@@ -286,10 +297,27 @@ a {
   border-right: 2px solid rgb(255, 255, 255) ;
 }
 
+.footer-nav-list2{
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .footer-nav-list2{
+    display: block;
+    padding-left: 60%;
+    margin-top: -10%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .footer-nav-list2{
+    display: block;
+    padding-left: 60%;
+    margin-top: -10%;
+  }
+}
 
 
 
 .copyright{
   font-size: 12px;
-  padding-left: 100px;
+  padding-left: 10em;
 }

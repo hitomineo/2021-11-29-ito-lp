@@ -124,9 +124,6 @@ li {
   transform: translateX(100%);
 }
 
-
-
-
 .photo-mv {
   width: 100%;
 }
@@ -141,9 +138,6 @@ li {
   }
 }
 
-
-
-
 .titlle-text {
   color: aliceblue;
   font-size: 50px;
@@ -152,42 +146,25 @@ li {
   margin-top: -35%;
 }
 
-
-
 .english-titlle {
   color: aliceblue;
   font-size: 30px;
   font-weight: normal;
 }
 
-
-
-
-
 .thought-text {
   background-color: black;
-  margin-top: 25%;
-  height: 40%;
+  height: 60em;
   align-items: flex-end;
 }
 
-@media screen and (max-width: 780px) {
-  .thought-text {
-    width: 100%;
-  }
-}
 
-@media screen and (max-width: 480px) {
-  .thought-text {
-    width: 100%;
-  }
-}
 
 .thought {
   color: aliceblue;
   font-size: 40px;
   padding-left: 10%;
-  padding-top: 10%;
+  padding-top:35% ;
 }
 
 .how-to-skill-text {
@@ -202,10 +179,6 @@ li {
   line-height: 40px;
 }
 
-
-
-
-
 .sarvice-text {
   font-size: 50px;
   font-weight: bolder;
@@ -219,6 +192,21 @@ li {
   flex-wrap: wrap;
 }
 
+@media screen and (max-width: 780px) {
+  .parent {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .parent {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+
 
 
 
@@ -229,14 +217,10 @@ li {
   width: 40%;
 }
 
-
-
-
 .text2 {
   line-height: 30px;
   font-weight: bold;
   font-size: 25px;
-  
 }
 
 .text-child {
@@ -247,7 +231,7 @@ li {
 .plactice__btn {
   position: relative;
   background-color: rgb(218, 0, 0);
-  width: 40%;
+  width: 25%;
   height: 30px;
   justify-content: center;
   display: block;
@@ -264,10 +248,6 @@ li {
   background: rgb(189, 48, 48);
   color: #fff;
 }
-
-
-
-
 
 .news {
   background-color: black;
@@ -289,7 +269,6 @@ li {
 
 .news2 {
   width: 100%;
-
 }
 
 .news-text {
@@ -314,10 +293,9 @@ li {
   font-weight: bold;
   text-decoration: none;
   margin: 100px auto;
-  margin-right: 100px;
+  margin-right: 25%;
   margin-top: -30px;
 }
-
 
 .plactice__btn2:hover {
   background: rgb(189, 48, 48);
@@ -339,22 +317,10 @@ li {
   border: 1px solid rgb(0, 0, 0);
 }
 
-
-
-
-
 .latest-news:hover {
   background: rgb(216, 216, 216);
   color: rgb(0, 0, 0);
 }
-
-
-
-
-
-
-
-
 
 .blog {
   font-size: 50px;
@@ -364,16 +330,12 @@ li {
   padding-left: 40%;
 }
 
-
-
-.blog-photo{
+.blog-photo {
   display: flex;
   margin-right: 8%;
 }
 
-
-
-.blog-block{
+.blog-block {
   margin-left: 2%;
   position: relative;
   text-decoration: none;
@@ -381,66 +343,53 @@ li {
 }
 
 @media screen and (max-width: 768px) {
-  .blog-block{
+  .blog-block {
     width: 100%;
   }
 }
 
 @media screen and (max-width: 480px) {
-  .blog-block{
+  .blog-block {
     width: 100%;
   }
 }
-
 
 .blog-block:hover {
   background: rgb(38, 60, 92);
   color: #000;
 }
 
-.blog-block1{
+.blog-block1 {
   display: flex;
   margin-top: 100px;
-  flex-wrap:nowrap ;
+  flex-wrap: nowrap;
   justify-content: space-between;
   padding-left: 10%;
 }
 
 @media screen and (max-width: 768px) {
-  .blog-block1{
+  .blog-block1 {
     flex-wrap: wrap;
   }
 }
 
 @media screen and (max-width: 480px) {
-  .blog-block1{
+  .blog-block1 {
     width: 100%;
     flex-wrap: wrap;
   }
 }
-
-
-
 
 .blog-text {
   position: absolute;
   top: 100%;
 }
 
-
-
-
-
-
-
-
-
-
 .plactice__btn3 {
   position: relative;
   top: 100px;
   background-color: rgb(218, 0, 0);
-  width: 40%px;
+  width: 25%;
   height: 30px;
   justify-content: center;
   display: block;
@@ -453,17 +402,10 @@ li {
   margin: 100px auto;
 }
 
-
 .plactice__btn3:hover {
   background: rgb(189, 48, 48);
   color: #fff;
 }
-
-
-
-
-
-
 
 .imformation-block {
   display: flex;
@@ -477,7 +419,7 @@ li {
 }
 
 .company-profile {
-  height: 350px;
+  height:20em;
   width: 50%;
   background-color: red;
   color: #fff;
@@ -488,17 +430,15 @@ li {
   color: #fff;
 }
 
-
-.company-text{
+.company-text {
   font-size: 40px;
   font-weight: bold;
   padding-left: 35%;
-  padding-top:17% ;
+  padding-top: 17%;
 }
 
-
 .imformation {
-  height: 350px;
+  height: 20em;
   width: 50%;
   background-color: rgb(0, 0, 0);
   color: #fff;
@@ -511,22 +451,16 @@ li {
 
 .imformation-text {
   font-size: 40px;
-  font-weight:bold ;
+  font-weight: bold;
   padding-left: 35%;
-  padding-top:17% ;
+  padding-top: 17%;
 }
-
-
-
-
-
-
 
 .call {
   background-color: rgb(241, 241, 241);
-  margin-top: 10%;
   width: 100%;
   height: 400px;
+  
 }
 
 @media screen and (max-width: 768px) {
@@ -622,6 +556,17 @@ a {
   margin-right: 200px;
   margin-top: 10px;
 }
+@media screen and (max-width: 768px) {
+  .footer-nav-list{
+    display: none;
+
+  }
+}
+@media screen and (max-width: 480px) {
+  .footer-nav-list{
+    display: none;
+  }
+}
 
 .footer-nav-item {
   margin-right: 20px;
@@ -633,7 +578,34 @@ a {
   border-right: 2px solid rgb(255, 255, 255);
 }
 
+
+
+.footer-nav-list2{
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .footer-nav-list2{
+    display: block;
+    padding-left: 30%;
+    margin-top: -10%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .footer-nav-list2{
+    display: block;
+    padding-left: 30%;
+    margin-top: -10%;
+  }
+}
+
+
+
+
+
 .copyright {
   font-size: 12px;
   padding-left: 100px;
 }
+
+
+
