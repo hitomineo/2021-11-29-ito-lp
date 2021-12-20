@@ -65,15 +65,19 @@
 li {
   color: blue;
 }
+
 .nav {
   position: absolute;
-  height: 1000px;
+  height: 100vh;
   width: 100%;
   left: -100%;
   background: #eee;
   transition: 0.7s;
   text-align: center;
 }
+
+
+
 .nav ul {
   padding-top: 80px;
 }
@@ -140,7 +144,7 @@ li {
 
 .titlle-text {
   color: aliceblue;
-  font-size: 50px;
+  font-size: 2.8em;
   font-weight: bold;
   padding-left: 20%;
   margin-top: -35%;
@@ -148,8 +152,9 @@ li {
 
 .english-titlle {
   color: aliceblue;
-  font-size: 30px;
+  font-size: 0.7em;
   font-weight: normal;
+  
 }
 
 .thought-text {
