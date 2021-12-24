@@ -2,19 +2,22 @@
 .header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  height: 70px;
-  padding: 0 30px;
   color: #000;
+  position: fixed ;
+  background-color: #fff;
+  width: 100%;
 }
 
 .header-ttl {
   font-size: 30px;
   width: 80px;
+  padding: 20px;
 }
 .header-nav-list {
   display: flex;
   font-weight: bold;
+  padding-top: 20px;
+  padding-right: 50px;
 }
 
 
@@ -54,19 +57,21 @@
 @media screen and (max-width:780px){
   .hbg{
     display: block;
+    padding-right: 50px;
   }
 }
 
 @media screen and (max-width:480px){
   .hbg{
     display: block;
+    padding-right: 50px;
   }
 }
 
 
 
 
-a{
+li{
   color: blue;
 }
 .nav{
@@ -137,65 +142,93 @@ a{
 
 
 
-
 .titlle-text {
   color: aliceblue;
-  font-size: 50px;
   font-weight: bold;
-  margin-top: -35%;
-  padding-left: 35%;
+  font-size: 4em;
+  display: flex;
+  justify-content: center;
+  margin-top: -30%;
 }
+
+
+
+
+
+
+
+
 
 
 
 
 .parent{
-  margin-top: 40%;
-  margin-left: 5em;
+  margin-top: 35%;
+  margin-right: 5%;
+}
+@media screen and (max-width: 768px) {
+  .parent {
+    margin-left: 15%;
+  }
 }
 
+
+
+.child{
+  display: flex;
+}
+@media screen and (max-width: 768px) {
+  .child {
+    flex-wrap: wrap;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .child{
+    flex-wrap: wrap;
+    width: 75%;
+  }
+}
 
 
 .business-content{
-  width: 40%;
-  margin-bottom: 5em;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 7%;
+  width: 450px;
 }
 @media screen and (max-width: 768px) {
   .business-content {
-    width: 80%;
+   width: 90%;
   }
 }
 
 @media screen and (max-width: 480px) {
   .business-content{
-    width: 80%;
+    width: 90%;
   }
 }
 
 
 
-.all-text{
-  margin-left: 45%;
-  margin-top: -10em;
-}
 
+
+.all-text{
+  margin-top: 2%;
+  margin-left: 30px;
+}
 @media screen and (max-width: 768px) {
   .all-text {
-    width: 80%;
-    margin-left: 0%;
-    margin-top: -5%;
+   margin-left: 10%;
   }
 }
 
 @media screen and (max-width: 480px) {
   .all-text{
-    width: 80%;
-    margin-left: 0%;
-    margin-top: -5%;
+    margin-left: 10%;
   }
 }
-
-
 
 
 
@@ -203,33 +236,28 @@ a{
   line-height: 30px;
   font-weight: bold;
   font-size: 25px;
-  width: 100%;
-  
 }
 
 .text-child {
   line-height: 30px;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 
 hr{
-  font-weight: 20px;
-  color: #000;
-  width: 100%;
+  margin-left: 5%;
+  width: 95%;
 }
 
 @media screen and (max-width: 768px) {
-  hr {
-    width: 80%;
+  hr{
+    width: 90%;
+    margin-left: -3%;
   }
 }
 
-@media screen and (max-width: 480px) {
-  hr{
-    width: 80%;
-  }
-}
+
+
 
 
 
@@ -283,7 +311,7 @@ hr{
   position: relative;
   justify-content: center;
   background-color: rgb(218, 0, 0);
-  width: 40%;
+  width: 300px;
   height: 30px;
   justify-content: center;
   display: block;

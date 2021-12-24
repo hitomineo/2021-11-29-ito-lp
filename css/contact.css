@@ -2,21 +2,22 @@
 .header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  height: 70px;
-  padding: 0 30px;
   color: #000;
+  position: fixed ;
+  background-color: #fff;
+  width: 100%;
 }
 
 .header-ttl {
   font-size: 30px;
   width: 80px;
+  padding: 20px;
 }
 .header-nav-list {
   display: flex;
   font-weight: bold;
-  width: 100%;
-  position: relative;
+  padding-top: 20px;
+  padding-right: 50px;
 }
 
 .header-nav{
@@ -59,12 +60,14 @@
 @media screen and (max-width:780px){
   .hbg{
     display: block;
+    padding-right: 50px;
   }
 }
 
 @media screen and (max-width:480px){
   .hbg{
     display: block;
+    padding-right: 50px;
   }
 }
 
@@ -140,13 +143,31 @@ li{
 }
 
 
+.photo-mv{
+  width: 100%;
+}
+@media screen and (max-width: 780px) {
+  .photo-mv {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .photo-mv {
+    width: 100%;
+  }
+}
+
+
+
+
 
 .titlle-text {
   color: aliceblue;
-  font-size: 40px;
-  font-weight: bold;
-  padding-left: 35%;
-  margin-top: -35%;
+  font-weight:bold;
+  font-size: 4em ;
+  display: flex;
+  justify-content: center;
+  margin-top: -28%;
 }
 
 
@@ -165,7 +186,6 @@ li{
 
 
 .label-brock{
-  
   padding-top: 40%;
   padding-left: 15%;
 }
@@ -198,6 +218,8 @@ li{
 
 .name{
   display: flex;
+  font-weight: bold;
+  margin-top: 10px;
 }
 
 .rice{
@@ -208,19 +230,24 @@ li{
 
 
 .plactice__btn4 {
+  position: relative;
   justify-content: center;
   background-color: black;
-  width: 40%;
-  height: 30px;
+  width: 300px;
+  height: 15px;
+  justify-content: center;
+  display: block;
   padding: 18px;
   text-align: center;
   color: #fff;
-  font-size: 25px;
+  font-size: 17px;
   font-weight: bold;
   text-decoration: none;
-  margin-top: 10%;
-  margin-left: 20%;
+  margin: 50px auto;
 }
+
+
+
 
 .plactice__btn4:hover{
   background: rgb(49, 49, 49);
@@ -241,7 +268,7 @@ a {
   color: #fff;
   padding: 20px 0;
   text-align: center;
-  margin-top: 20%;
+  margin-top: 10%;
 }
 
 

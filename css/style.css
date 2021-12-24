@@ -1,19 +1,24 @@
 .header {
   display: flex;
   justify-content: space-between;
-  height: 50px;
-  padding: 40px 20px 10px 30px;
   color: #000;
+  position: fixed ;
+  background-color: #fff;
+  width: 100%;
 }
 
 .header-ttl {
   font-size: 30px;
   width: 80px;
+  padding: 20px ;
 }
 
 .header-nav-list {
   display: flex;
   font-weight: bold;
+  padding-top: 30px;
+  padding-right: 20px;
+  
 }
 
 .header-nav-item {
@@ -53,12 +58,14 @@
 @media screen and (max-width: 780px) {
   .hbg {
     display: block;
+    padding-right: 50px;
   }
 }
 
 @media screen and (max-width: 480px) {
   .hbg {
     display: block;
+    padding-right: 50px;
   }
 }
 
@@ -142,20 +149,60 @@ li {
   }
 }
 
-.titlle-text {
+
+
+.titlle-text{
   color: aliceblue;
-  font-size: 2.8em;
   font-weight: bold;
-  padding-left: 20%;
+}
+
+
+
+.probrem{
+  font-size: 4em;
+  padding-left: 15%;
+  padding-right: 10%;
   margin-top: -35%;
 }
+@media screen and (max-width: 780px) {
+  .probrem{
+    font-size: 3em;
+    padding-top: -3%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .probrem{
+    padding-top: 3%;
+    font-size: 2em;
+    padding-left: 17%;
+  }
+}
+
+
+
 
 .english-titlle {
   color: aliceblue;
-  font-size: 0.7em;
+  font-size: 1.5em;
   font-weight: normal;
-  
+  display: flex;
+  justify-content: center;
 }
+@media screen and (max-width: 780px) {
+  .english-titlle{
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .english-titlle{
+    font-size: 1em;
+  }
+}
+
+
+
 
 .thought-text {
   background-color: black;
@@ -168,7 +215,7 @@ li {
 .thought {
   color: aliceblue;
   font-size: 40px;
-  padding-left: 10%;
+  padding-left: 20%;
   padding-top:35% ;
 }
 
@@ -189,27 +236,19 @@ li {
   font-weight: bolder;
   margin-top: 70px;
   margin-bottom: 80px;
-  padding-left: 40%;
+  display: flex;
+  justify-content: center;
 }
+
+
+
 
 .parent {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
-@media screen and (max-width: 780px) {
-  .parent {
-    width: 100%;
-    justify-content: center;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .parent {
-    width: 100%;
-    justify-content: center;
-  }
-}
 
 
 
@@ -217,10 +256,35 @@ li {
 
 .child {
   padding-bottom: 70px;
-  padding-right: 50px;
-  padding-left: 50px;
   width: 40%;
+
 }
+@media screen and (max-width: 780px) {
+  .child {
+    justify-content: center;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .child {
+    justify-content: center;
+    width: 80%;
+  }
+}
+
+.business-content{
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+.all-text{
+  padding-right: 5%;
+  padding-left: 5%; 
+}
+
+
+
 
 .text2 {
   line-height: 30px;
@@ -236,7 +300,7 @@ li {
 .plactice__btn {
   position: relative;
   background-color: rgb(218, 0, 0);
-  width: 25%;
+  width: 300px;
   height: 30px;
   justify-content: center;
   display: block;
@@ -249,10 +313,37 @@ li {
   margin: 100px auto;
 }
 
+
+@media screen and (max-width: 768px) {
+  .plactice__btn {
+    width: 300px;
+    height: auto;
+    font-size: 25px;
+
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .plactice__btn {
+    width: 200px;
+    font-size: 20px;
+    height: auto;
+  }
+}
+
+
+
 .plactice__btn:hover {
   background: rgb(189, 48, 48);
   color: #fff;
 }
+
+
+
+
+
+
+
 
 .news {
   background-color: black;
@@ -272,22 +363,24 @@ li {
   }
 }
 
-.news2 {
-  width: 100%;
-}
 
 .news-text {
   color: #fff;
   font-size: 30px;
   padding-top: 60px;
-  margin-left: 100px;
+  margin-left: 10%;
   font-weight: bold;
 }
+
+
+
+
+
 
 .plactice__btn2 {
   position: relative;
   background-color: rgb(218, 0, 0);
-  width: 180px;
+  width: 200px;
   height: 10px;
   display: block;
   padding: 20px;
@@ -298,9 +391,30 @@ li {
   font-weight: bold;
   text-decoration: none;
   margin: 100px auto;
-  margin-right: 25%;
+  margin-right: 10%;
   margin-top: -30px;
 }
+@media screen and (max-width: 768px) {
+  .plactice__btn2 {
+    width: 180px;
+    font-size: 16px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .plactice__btn2 {
+    width: 150px;
+    font-size: 15px;
+    height: auto;
+  }
+}
+
+
+
+
+
+
 
 .plactice__btn2:hover {
   background: rgb(189, 48, 48);
@@ -308,19 +422,34 @@ li {
 }
 
 .latest-news {
-  width: 65%;
+  width: 80%;
   display: block;
   background-color: white;
   font-size: 20px;
   font-weight: bold;
   padding: 30px;
   margin-bottom: 10px;
-  margin-left: 100px;
+  margin-left: 10%;
+  margin-right: 10%;
   position: relative;
   top: -40px;
   color: rgb(0, 0, 0);
   border: 1px solid rgb(0, 0, 0);
 }
+
+@media screen and (max-width: 768px) {
+  .latest-news {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .latest-news{
+    width: 60%;
+  }
+}
+
+
 
 .latest-news:hover {
   background: rgb(216, 216, 216);
@@ -332,69 +461,72 @@ li {
   font-weight: bolder;
   margin-top: 70px;
   margin-bottom: 80px;
-  padding-left: 40%;
+  display: flex;
+  justify-content: center;
 }
+
+
+
+.blog-block1{
+  display: flex;
+  justify-content: center;
+}
+
 
 .blog-photo {
   display: flex;
-  margin-right: 8%;
+  width: 80%;
+  
 }
-
-.blog-block {
-  margin-left: 2%;
-  position: relative;
-  text-decoration: none;
-  color: rgb(0, 0, 0);
-}
-
 @media screen and (max-width: 768px) {
-  .blog-block {
-    width: 100%;
+  .blog-photo{
+    flex-wrap: wrap;
   }
 }
 
 @media screen and (max-width: 480px) {
-  .blog-block {
-    width: 100%;
+  .blog-photo {
+    flex-wrap: wrap;
   }
 }
+
+
+
+
+
+
+.blog-block {
+  margin-right: 10px;
+  text-decoration: none;
+  
+}
+
 
 .blog-block:hover {
   background: rgb(38, 60, 92);
   color: #000;
 }
 
-.blog-block1 {
-  display: flex;
-  margin-top: 100px;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  padding-left: 10%;
-}
 
-@media screen and (max-width: 768px) {
-  .blog-block1 {
-    flex-wrap: wrap;
-  }
-}
 
-@media screen and (max-width: 480px) {
-  .blog-block1 {
-    width: 100%;
-    flex-wrap: wrap;
-  }
-}
+
+
 
 .blog-text {
-  position: absolute;
-  top: 100%;
+  margin-bottom: 40px;
+  margin-top: 10px;
+}
+
+.thick{
+  font-weight: bold;
+  margin-top: 5px;
 }
 
 .plactice__btn3 {
   position: relative;
-  top: 100px;
+  top: 10px;
   background-color: rgb(218, 0, 0);
-  width: 25%;
+  width: 300px;
   height: 30px;
   justify-content: center;
   display: block;
@@ -412,18 +544,41 @@ li {
   color: #fff;
 }
 
+@media screen and (max-width: 768px) {
+  .plactice__btn3 {
+    width: 300px;
+    font-size: 25px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .plactice__btn3 {
+    width: 200px;
+    font-size: 20px;
+    height: auto;
+  }
+}
+
+
+
+
+
+
+
 .imformation-block {
   display: flex;
   margin-top: 200px;
+  margin-bottom: 5%;
 }
 
 .imformation-block::before {
   content: "";
   display: block;
-  padding-top: 40%;
 }
 
 .company-profile {
+  display: flex;
   height:20em;
   width: 50%;
   background-color: red;
@@ -438,11 +593,11 @@ li {
 .company-text {
   font-size: 40px;
   font-weight: bold;
-  padding-left: 35%;
-  padding-top: 17%;
+  margin: 130px auto;
 }
 
 .imformation {
+  display: flex;
   height: 20em;
   width: 50%;
   background-color: rgb(0, 0, 0);
@@ -457,15 +612,13 @@ li {
 .imformation-text {
   font-size: 40px;
   font-weight: bold;
-  padding-left: 35%;
-  padding-top: 17%;
+  margin: 130px auto;
 }
 
 .call {
   background-color: rgb(241, 241, 241);
   width: 100%;
   height: 400px;
-  
 }
 
 @media screen and (max-width: 768px) {
@@ -493,14 +646,15 @@ li {
 
 .call-text2 {
   font-size: 20px;
-  padding-top: 5%;
-  padding-left: 30%;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
 }
 .plactice__btn4 {
   position: relative;
   justify-content: center;
   background-color: rgb(218, 0, 0);
-  width: 380px;
+  width: 300px;
   height: 30px;
   justify-content: center;
   display: block;
@@ -512,6 +666,25 @@ li {
   text-decoration: none;
   margin: 50px auto;
 }
+
+@media screen and (max-width: 768px) {
+  .plactice__btn4 {
+    width: 300px;
+    font-size: 25px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .plactice__btn4 {
+    width: 200px;
+    font-size: 20px;
+    height: auto;
+  }
+}
+
+
+
 
 .plactice__btn4:hover {
   background: rgb(189, 48, 48);

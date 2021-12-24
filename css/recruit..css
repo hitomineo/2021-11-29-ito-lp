@@ -2,21 +2,22 @@
 .header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  height: 70px;
-  padding: 0 30px;
   color: #000;
+  position: fixed ;
+  background-color: #fff;
+  width: 100%;
 }
 
 .header-ttl {
   font-size: 30px;
   width: 80px;
+  padding: 20px;
 }
 .header-nav-list {
   display: flex;
   font-weight: bold;
-  width: 100%;
-  position: relative;
+  padding-top: 20px;
+  padding-right: 50px;
 }
 
 .header-nav{
@@ -59,12 +60,14 @@
 @media screen and (max-width:780px){
   .hbg{
     display: block;
+    padding-right: 50px;
   }
 }
 
 @media screen and (max-width:480px){
   .hbg{
     display: block;
+    padding-right: 50px;
   }
 }
 
@@ -144,10 +147,11 @@ li{
 
 .titlle-text {
   color: aliceblue;
-  font-size: 50px;
   font-weight: bold;
-  margin-top: -35%;
-  padding-left: 35%;
+  font-size: 4em;
+  display: flex;
+  justify-content: center;
+  margin-top: -28%;
 }
 
 
@@ -163,7 +167,7 @@ li{
 
 hr{
   border-top: 1px solid #ccc;
-  width: 100%;
+  width: 80%;
   margin-top: 5px;
 }
 
@@ -176,13 +180,13 @@ hr{
 }
 
 .new-graduates{
-  margin-top: 50%;
-  margin-left: 50px;
+  margin-left: 20%;
+  margin-top: 30%;
   margin-right: 50px;
 }
 
 .career-recruitment{
-  margin-left: 50px;
+  margin-left: 20%;
   margin-top: 50px;
   margin-right: 50px;
 }
@@ -254,7 +258,7 @@ table th {
   position: relative;
   justify-content: center;
   background-color: rgb(218, 0, 0);
-  width: 40%;
+  width: 300px;
   height: 30px;
   justify-content: center;
   display: block;
